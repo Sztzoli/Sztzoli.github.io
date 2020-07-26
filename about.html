@@ -9,55 +9,47 @@
 
 <body>
     <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/pages/products.html">Produts</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">orders</a>
-        </li>
-        <li>
-            <a href="/about.html">about</a>
-        </li>
-
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/products.html">Products</a></li>
+        <li><a href="/pages/orders.html">Orders</a></li>
+        <li><a href="/about.html">About</a></li>
     </ul>
-    <h1>
-        about
-    </h1>
-
-    <table>
-        <caption>Opening hours</caption>
-        <thead>
-            <th>Day</th>
-            <th>Open</th>
-            <th>Close</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Monday- Friday</td>
-                <td>09:00</td>
-                <td rowspan="2">21:00</td>
-            </tr>
-            <tr>
-                <td>Suterday</td>
-                <td>10:00</td>
-                
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td colspan="2">closed</td>
-               
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">&copy; 2019</td>
-            </tr>
-            
-        </tfoot>
-    </table>
+    <h1>About</h1>
+   <table>
+       <caption>Opening hours</caption> <!-- táblázat címe -->
+       <thead> <!-- fejléc -->
+           <tr>
+               <th>Day</th>
+               <th>Open</th>
+               <th>Close</th>
+           </tr>
+       </thead>
+       <tbody> 
+          <tr>
+           <td>Monday-Friday</td>
+           <td>09:00</td>
+           <td rowspan="2">21:00</td> <!-- 2 sor magas cella lesz -->
+       </tr>
+       <tr>
+           <td>Saturday</td>
+           <td>10:00</td>
+           
+       </tr>
+       <tr>
+           <td>Sunday</td>
+           <td colspan="2">Closed</td> <!-- 2 sor széles cella lesz -->
+           
+       </tr> 
+       </tbody>
+       <tfoot> <!-- láblác -->
+        <tr>
+            <td colspan="3">
+                &copy; 2019
+            </td>
+        </tr>
+       
+       </tfoot>
+   </table>
 
 </body>
 
